@@ -1,0 +1,22 @@
+{
+  "name": "nalogka-nodejs-configurator",
+  "version": "0.1.0",
+  "description": "Пакет для конфигурации из env файла проектов Наложка на nodeJs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nalogka",
+    "nodejs",
+    "config",
+    "env"
+  ],
+  "author": "Alexander Konnov <a.konnov73@bk.ru>",
+  "license": "ISC",
+  "engines": {
+    "node": ">= 0.8"
+  },
+  "dependencies": {
+    "dotenv": "^6.2.0"
+  }
+}
