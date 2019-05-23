@@ -12,11 +12,11 @@
 значений можно увидеть в файле `.env.dist` в корне репозитория.
 
 Пример файла конфигурации config/config.json:
-```$xslt
-{
-"accountPassword": "{ACCOUNT_PASSWORD}"
-}
 
+```json
+{
+    "accountPassword": "{ACCOUNT_PASSWORD}"
+}
 ```
 Доступ к переменным конфига через:
 
