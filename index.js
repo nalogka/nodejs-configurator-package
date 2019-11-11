@@ -1,6 +1,6 @@
 const fs = require('fs');
 if(!process.env.APP_ENV){ //Нужно читать из файла только если окружение еще не настроено
-    require('dotenv').load();
+    require('dotenv-flow').config();
 }
 const env = process.env.APP_ENV || 'dev';
 
